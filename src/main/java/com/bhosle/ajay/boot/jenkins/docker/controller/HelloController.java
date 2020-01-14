@@ -10,6 +10,6 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	public String getMessage() {
-		return "Hello, Testing CI/CD integration with GitHub, Jenkins & Docker";
+		return "Hello, Testing CI/CD integration with GitHub, Jenkins & Docker, troubleshooting issues";
 	}
 }
